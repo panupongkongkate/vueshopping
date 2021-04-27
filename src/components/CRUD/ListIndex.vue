@@ -185,6 +185,7 @@ export default {
     handleSubmit() {
       // Exit when the form isn't valid
       if (!this.checkFormValidity()) {
+        console.log("ค่าไม่ครบ");
         return;
       }
 
